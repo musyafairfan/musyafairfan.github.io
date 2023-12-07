@@ -94,10 +94,10 @@ img {
   background-color: var(--first-color);
 }
 
-/* .section {
+.section {
   padding-top: 3rem;
   padding-bottom: 2rem;
-} */
+}
 
 /*===== LAYOUT =====*/
 .bd-grid {
@@ -284,9 +284,9 @@ img {
   text-align: center;
 }
 
-/* .skills__subtitle {
+.skills__subtitle {
   margin-bottom: var(--mb-2);
-} */
+}
 
 .skills__text {
   margin-bottom: var(--mb-4);
