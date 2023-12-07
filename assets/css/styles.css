@@ -17,6 +17,7 @@
   --normal-font-size: .938rem;
   --smaller-font-size: .75rem;
   /*===== Margenes =====*/
+  --mb-1: 0.5rem;
   --mb-2: 1rem;
   --mb-4: 2rem;
   --mb-5: 2.5rem;
@@ -76,8 +77,8 @@ img {
   position: relative;
   font-size: var(--h2-font-size);
   color: var(--first-color);
-  margin-top: var(--mb-2);
-  margin-bottom: var(--mb-4);
+  margin-top: var(--mb-1);
+  margin-bottom: var(--mb-2);
   text-align: center;
 }
 
@@ -93,10 +94,10 @@ img {
   background-color: var(--first-color);
 }
 
-.section {
+/* .section {
   padding-top: 3rem;
   padding-bottom: 2rem;
-}
+} */
 
 /*===== LAYOUT =====*/
 .bd-grid {
