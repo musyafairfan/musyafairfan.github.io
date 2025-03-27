@@ -279,6 +279,10 @@ img {
   border-radius: .5rem;
 }
 
+#about .about__text {
+  text-align: justify;
+}
+
 /* ===== SKILLS =====*/
 .skills__container {
   text-align: center;
@@ -376,6 +380,17 @@ img {
 /* ===== PROJECT ===== */
 .project-title {
   font-weight: bold;
+}
+.project_experience_list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+project__item {
+  margin-bottom: 20px;
+}
+.project-content {
+  text-align: justify;
 }
 
 /* ===== CONTACT =====*/
